@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Puzzle 2</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-dark">
+
+<div class="bg-secondary container-fluid w-75  text-light">
+    <!--class="fas fa-bars navbar-brand navbar-toggler navbar-dark navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#main-navigation"-->
+    <div class="navbar navbar-expand-md">
+        <div>
+            <h1 class="text-right">Bootstrap Puzzle 2</h1>
+        </div>
+        <div>
+            <a class="navbar-toggler-icon fas fa-bars navbar-toggler navbar-dark text-light text-decoration-none" data-toggle="collapse" data-target="#main-navigation"></a>
+            <ul class="navbar-nav collapse navbar-collapse" id="main-navigation">
+                <li  class="nav-item"><a href="index.html" class="nav-link text-light">Home</a></li>
+                <li  class="nav-item"><a href="puzzle1.html" class="nav-link text-light">Puzzle 1</a></li>
+                <li  class="nav-item"><a href="puzzle2.html" class="nav-link text-light">Puzzle 2</a></li>
+                <li  class="nav-item"><a href="puzzle3.html" class="nav-link text-light">Puzzle 3</a></li>
+                <li  class="nav-item"><a href="bonus.html" class="nav-link text-light">Bonus</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Carousel-->
+    <div class="container  mb-3" id="slideshow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <a href="img/img1.jpg" target="_blank" class="carousel-item active">
+                <img src="img/img1.jpg" class="w-100">
+                <span class="carousel-caption d-none d-md-block">Bekijk Boom 1</span>
+            </a>
+            <a href="img/img2.jpg" target="_blank" class="carousel-item">
+                <img src="img/img2.jpg" class="w-100">
+                <span class="carousel-caption d-none d-md-block">Bekijk Boom 2</span>
+            </a>
+            <a href="img/img3.jpg" target="_blank" class="carousel-item">
+                <img src="img/img3.jpg" class="w-100">
+                <span class="carousel-caption d-none d-md-block">Bekijk Boom 3</span>
+            </a>
+            <a href="img/img4.jpg" target="_blank" class="carousel-item">
+                <img src="img/img4.jpg" class="w-100">
+                <span class="carousel-caption d-none d-md-block">Bekijk Boom 4</span>
+            </a>
+            <a href="img/img5.jpg" target="_blank" class="carousel-item">
+                <img src="img/img5.jpg" class="w-100">
+                <span class="carousel-caption d-none d-md-block">Bekijk Boom 5</span>
+            </a>
+        </div>
+    </div>
+    
+    <!-- media-body mt-0 w-75 bg-info text-light h-50 -->
+    <div class="container">
+        <div class="row text-left">
+            <div class="bg-light text-dark col-6 card h-50 d-flex flex-row p-2">
+                <img src="img/item1.jpg" class="w-25">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item1text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="bg-info w-25 d-block h-25"><a href="#item1text" class="text-light text-decoration-none" data-toggle="collapse" data-target="#item1text">Lees meer &hellip;</a></p>
+            </div>
+
+            <div class="bg-light text-dark col-6 card h-50 d-flex flex-row p-2">
+                <img src="img/item2.jpg"  class="w-25">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item2text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="bg-info w-25 d-block h-25"><a href="#item2text" class="text-light text-decoration-none" data-toggle="collapse" data-target="#item2text">Lees meer &hellip;</a></p>
+            </div>
+
+            <div class="bg-light text-dark col-6 card h-50 d-flex flex-row p-2">
+                <img src="img/item3.jpg"  class="w-25">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item3text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="bg-info w-25 d-block h-25"><a href="#item3text" class="text-light text-decoration-none" data-toggle="collapse" data-target="#item3text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+
+        <div class="row text-left">
+            <div class="bg-light text-dark col-6 card h-50 d-flex flex-row  p-2">
+                <img src="img/item4.jpg" class="w-25">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item4text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="bg-info w-25 d-block h-25"><a href="#item4text" class="text-light text-decoration-none" data-toggle="collapse" data-target="#item4text">Lees meer &hellip;</a></p>
+            </div>
+
+            <div class="bg-light text-dark col-6 card h-50 d-flex flex-row  p-2">
+                <img src="img/item5.jpg" class="w-25">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item5text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="bg-info w-25 d-block h-25"><a href="#item5text" class="text-light text-decoration-none" data-toggle="collapse" data-target="#item5text">Lees meer &hellip;</a></p>
+            </div>
+
+            <div class="bg-light text-dark col-6 d-flex flex-row p-2">
+                <img src="img/item6.jpg" class="w-25 h-100">
+                <h2 class="text-left d-inline bg-info text-light h-100 col-9">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item6text" class="collapse col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item6text" class="text-light bg-info text-decoration-none" href="#item6text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+    </div>   
+
+    <div class="container">
+        <div class="row text-left">
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item1.jpg" class="col-4">
+                <h2 class="text-left d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item1text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item1text" class="btn btn-primary col-3" href="#item1text">Lees meer &hellip;</a></p>
+            </div>
+
+
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item2.jpg" class="col-4">
+                <h2 class="d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item2text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item2text" class="btn btn-primary" href="#item2text">Lees meer &hellip;</a></p>
+            </div>
+
+
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item3.jpg"  class="col-4">
+                <h2 class="d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item3text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item3text" class="btn btn-primary" href="#item3text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+
+         <!-- class="w-25 img-fluid d-inline" -->
+
+
+         <!--Container van de divs-->
+        <div class="row text-left">
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item4.jpg" class="col-4">
+                <h2 class="d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item4text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item4text" class="btn btn-primary btn-sm" href="#item4text">Lees meer &hellip;</a></p>
+            </div>
+
+
+              <!--Text divjes met afbeelding-->
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item5.jpg" class="col-4">
+                <h2 class="d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item5text" class="collapse">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item5text" class="btn btn-primary btn-sm" href="#item5text">Lees meer &hellip;</a></p>
+            </div>
+
+
+              <!--Text divjes met afbeelding-->
+            <div class="bg-light text-dark m-3 p-2 col-6">
+                <img src="img/item6.jpg" class="col-4">
+                <h2 class="d-inline bg-info text-light">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item6text" class="collapse col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12 mt-2 text-right"><a data-toggle="collapse" data-target="#item6text" class="btn btn-primary btn-sm" href="#item6text">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="d-flex justify-content-end ">
+                <span class="d-none">Created with:</span>
+                <a href="https://getbootstrap.com/" target="_blank"><img class="w-75" src="img/logo-bootstrap.png"></a>
+                <a href="https://fontawesome.com/" target="_blank"><img class="w-75" src="img/logo-fontawsome.png"></a>
+                <a href="https://w3schools.com/" target="_blank"><img class="w-75" src="img/logo-w3schools.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
